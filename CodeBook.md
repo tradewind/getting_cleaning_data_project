@@ -3,87 +3,83 @@ Getting and Cleaning Data course project
 
 ========================================================================================================================================================
 
-subject
-	Subject ID
-		1..30
+- subject: Subject ID
+  - 1..30
 
-activity
-	Types of activities
-		WALKING
-		WALKING_UPSTAIRS
-		WALKING_DOWNSTAIRS
-		SITTING
-		STANDING
-		LAYING
+- activity: Types of activities
+  - WALKING
+  - WALKING_UPSTAIRS
+  - WALKING_DOWNSTAIRS
+  - SITTING
+  - STANDING
+  - LAYING
 
-feature
-	Types of features pertaining to the mean and standard deviation of the signals collected from the accelerometer and gyro
-		tBodyAccMeanX
-		tBodyAccMeanY
-		tBodyAccMeanZ
-		tBodyAccStdX        
-		tBodyAccStdY
-		tBodyAccStdZ
-		tGravityAccMeanX
-		tGravityAccMeanY    
-		tGravityAccMeanZ
-		tGravityAccStdX
-		tGravityAccStdY
-		tGravityAccStdZ     
-		tBodyAccJerkMeanX
-		tBodyAccJerkMeanY
-		tBodyAccJerkMeanZ
-		tBodyAccJerkStdX    
-		tBodyAccJerkStdY
-		tBodyAccJerkStdZ
-		tBodyGyroMeanX
-		tBodyGyroMeanY
-		tBodyGyroMeanZ
-		tBodyGyroStdX
-		tBodyGyroStdY
-		tBodyGyroStdZ
-		tBodyGyroJerkMeanX
-		tBodyGyroJerkMeanY
-		tBodyGyroJerkMeanZ
-		tBodyGyroJerkStdX
-		tBodyGyroJerkStdY
-		tBodyGyroJerkStdZ
-		tBodyAccMagMean
-		tBodyAccMagStd
-		tGravityAccMagMean
-		tGravityAccMagStd
-		tBodyAccJerkMagMean
-		tBodyAccJerkMagStd
-		tBodyGyroMagMean
-		tBodyGyroMagStd
-		tBodyGyroJerkMagMean
-		tBodyGyroJerkMagStd
-		fBodyAccMeanX
-		fBodyAccMeanY
-		fBodyAccMeanZ
-		fBodyAccStdX
-		fBodyAccStdY
-		fBodyAccStdZ
-		fBodyAccJerkMeanX
-		fBodyAccJerkMeanY
-		fBodyAccJerkMeanZ
-		fBodyAccJerkStdX
-		fBodyAccJerkStdY
-		fBodyAccJerkStdZ
-		fBodyGyroMeanX
-		fBodyGyroMeanY
-		fBodyGyroMeanZ
-		fBodyGyroStdX
-		fBodyGyroStdY
-		fBodyGyroStdZ
-		fBodyAccMagMean
-		fBodyAccMagStd
-		fBodyAccJerkMagMean
-		fBodyAccJerkMagStd
-		fBodyGyroMagMean
-		fBodyGyroMagStd
-		fBodyGyroJerkMagMean
-		fBodyGyroJerkMagStd
+- feature: Types of features pertaining to the mean and standard deviation of the signals collected from the accelerometer and gyro
+  - tBodyAccMeanX
+  - tBodyAccMeanY
+  - tBodyAccMeanZ
+  - tBodyAccStdX        
+  - tBodyAccStdY
+  - tBodyAccStdZ
+  - tGravityAccMeanX
+  - tGravityAccMeanY    
+  - tGravityAccMeanZ
+  - tGravityAccStdX
+  - tGravityAccStdY
+  - tGravityAccStdZ     
+  - tBodyAccJerkMeanX
+  - tBodyAccJerkMeanY
+  - tBodyAccJerkMeanZ
+  - tBodyAccJerkStdX    
+  - tBodyAccJerkStdY
+  - tBodyAccJerkStdZ
+  - tBodyGyroMeanX
+  - tBodyGyroMeanY
+  - tBodyGyroMeanZ
+  - tBodyGyroStdX
+  - tBodyGyroStdY
+  - tBodyGyroStdZ
+  - tBodyGyroJerkMeanX
+  - tBodyGyroJerkMeanY
+  - tBodyGyroJerkMeanZ
+  - tBodyGyroJerkStdX
+  - tBodyGyroJerkStdY
+  - tBodyGyroJerkStdZ
+  - tBodyAccMagMean
+  - tBodyAccMagStd
+  - tGravityAccMagMean
+  - tGravityAccMagStd
+  - tBodyAccJerkMagMean
+  - tBodyAccJerkMagStd
+  - tBodyGyroMagMean
+  - tBodyGyroMagStd
+  - tBodyGyroJerkMagMean
+  - tBodyGyroJerkMagStd
+  - fBodyAccMeanX
+  - fBodyAccMeanY
+  - fBodyAccMeanZ
+  - fBodyAccStdX
+  - fBodyAccStdY
+  - fBodyAccStdZ
+  - fBodyAccJerkMeanX
+  - fBodyAccJerkMeanY
+  - fBodyAccJerkMeanZ
+  - fBodyAccJerkStdX
+  - fBodyAccJerkStdY
+  - fBodyAccJerkStdZ
+  - fBodyGyroMeanX
+  - fBodyGyroMeanY
+  - fBodyGyroMeanZ
+  - fBodyGyroStdX
+  - fBodyGyroStdY
+  - fBodyGyroStdZ
+  - fBodyAccMagMean
+  - fBodyAccMagStd
+  - fBodyAccJerkMagMean
+  - fBodyAccJerkMagStd
+  - fBodyGyroMagMean
+  - fBodyGyroMagStd
+  - fBodyGyroJerkMagMean
+  - fBodyGyroJerkMagStd
 
-average
-	The average measurements of a feature for each subject and each activity
+- average: The average measurements of a feature for each subject and each activity
